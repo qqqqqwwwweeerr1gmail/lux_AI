@@ -1,0 +1,7 @@
+kaggle-environments
+scipy
+matplotlib
+pandas
+numpy
+
+openpyxl
