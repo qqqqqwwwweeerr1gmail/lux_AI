@@ -25,3 +25,14 @@ tests/bots
 
 server/keys
 server/.env
+
+
+.idea/*
+
+
+
+
+
+
+
+
