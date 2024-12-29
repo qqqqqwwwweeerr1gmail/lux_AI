@@ -1,0 +1,10 @@
+2024-12-27 14:17:06,856 - DEBUG - This is a debug message
+2024-12-27 14:17:06,856 - INFO - This is an informational message
+2024-12-27 14:17:06,856 - WARNING - This is a warning message
+2024-12-27 14:17:06,856 - ERROR - This is an error message
+2024-12-27 14:17:06,856 - CRITICAL - This is a critical message
+2024-12-27 14:17:06,856 - ERROR - An error occurred:
+Traceback (most recent call last):
+  File "C:\GIT\lux_AI\ana\randomm.py", line 36, in <module>
+    10 / 0
+ZeroDivisionError: division by zero

@@ -14,6 +14,9 @@ class Player:
         self.units: list[Unit] = []
         self.cities: Dict[str, City] = {}
         self.city_tile_count = 0
+        # ws dev
+        self.workers_count = len([unit for unit in self.units if unit.is_worker()])
+        self.carts_count = len([unit for unit in self.units if unit.is_cart()])
     def researched_coal(self) -> bool:
         return self.research_points >= GAME_CONSTANTS["PARAMETERS"]["RESEARCH_REQUIREMENTS"]["COAL"]
     def researched_uranium(self) -> bool:
