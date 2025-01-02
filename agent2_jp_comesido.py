@@ -192,7 +192,6 @@ def agent(observation, configuration):
                 if unit.can_build(game_state.map):
                     actions.append(unit.build_city())
 
-
                 else:
                     # 5割の確率で近くのcitytileに帰り、5割はランダムに動く
                     if (random.random() > 0.5):

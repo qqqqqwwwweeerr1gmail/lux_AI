@@ -1,10 +1,11 @@
-from logs.log_ import l
+# from logs.log_ import l
+#
+# l.info('safds')
+#
 
-l.info('safds')
 
-
-
-
+a = {'a':'f'}
+print(len(a))
 
 
 

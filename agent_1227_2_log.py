@@ -24,7 +24,6 @@ with open('./mid_yml/data.yml', 'r') as file:
 print(data)
 l = g_l(data["uuid"])
 
-
 def agent(observation, configuration):
     global game_state
 
@@ -113,7 +112,7 @@ def agent(observation, configuration):
         # print('pillage',unit.pillage())
         # time.sleep(10)
         pass
-    acs.append(annotate_sidetext(str(acs).replace('\'','"')+'\r\nafdfddsf'))
+    acs.append(annotate_sidetext(str(acs).replace('\'','"')))
     l.info(observation["step"])
     l.info(acs)
     l.info('')

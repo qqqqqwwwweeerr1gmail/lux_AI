@@ -17,8 +17,8 @@ env = make("lux_ai_2021", configuration={"seed": 42, "loglevel": 1, "annotations
 # steps = env.run(["./agent_basic.py", "agent1_multi_.py"])
 # steps = env.run(["./agent_1226_1.py", "agent1_multi_.py"])
 # steps = env.run(["./agent_1226_2.py", "agent1_multi_.py"])
-steps = env.run(["./agent_1226_3.py", "agent1_multi_.py"])
-# steps = env.run(["./agent_basic_ws_basic.py", "agent_basic_ws.py"])
+# steps = env.run(["./agent_1226_3.py", "agent1_multi_.py"])
+steps = env.run(["./agent_1230.py", "agent1_multi_.py"])
 
 print(steps)
 
